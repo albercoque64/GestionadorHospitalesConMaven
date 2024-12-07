@@ -7,6 +7,7 @@ package enfermera;
 import java.awt.event.ActionListener;
 import java.util.List;
 import javax.swing.DefaultListModel;
+import javax.swing.JList;
 import javax.swing.event.ListSelectionListener;
 import pacientes.Paciente;
 
@@ -197,6 +198,10 @@ public class AdministrarMedicamentos extends javax.swing.JFrame {
 
         return lista.getSelectedValue();
 
+    }
+
+    public JList<String> getLista() {
+        return lista;
     }
 
 }
