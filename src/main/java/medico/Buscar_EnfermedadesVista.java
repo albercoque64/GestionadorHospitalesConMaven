@@ -213,8 +213,13 @@ public class Buscar_EnfermedadesVista extends javax.swing.JFrame {
 
     public void getEnfermdedades(List<Enfermedad> enfermedades) {
         this.enfermedades = enfermedades;
+        actualizarLista("");
     }
 
+    public List<Enfermedad> getEnfermedadesInternas() {
+        return enfermedades;
+    }
+    
     public String encontrarDescripcion(List<Enfermedad> enfermedades, String nombre) {
         for (int i = 0; i < enfermedades.size(); i++) {
             if (enfermedades.get(i).getNombre().equals(nombre)) {
@@ -226,6 +231,16 @@ public class Buscar_EnfermedadesVista extends javax.swing.JFrame {
             }
         }
         return "Enfermedad no encontrada.";
+    }
+    
+    // Getter para listaEnfermedades
+    public javax.swing.JList<String> getListaEnfermedades() {
+        return listaEnfermedades;
+    }
+    
+    // Getter para descripcion
+    public javax.swing.JTextPane getDescripcion() {
+        return descripcion;
     }
 
 }
