@@ -156,16 +156,16 @@ public class MedicoVista extends javax.swing.JFrame {
         b_ver_pacientes.addActionListener(actionListener);
 
     }
-public java.awt.Button getBuscarEnfermedadesButton() {
-    return b_buscar_enfermedades;
-}
 
-public java.awt.Button getCerrarButton() {
-    return b_cerrar;
-}
+        public java.awt.Button getBuscarEnfermedadesButton() {
+            return b_buscar_enfermedades;
+        }
+        
+        public java.awt.Button getCerrarButton() {
+            return b_cerrar;
+        }
 
-public java.awt.Button getVerPacientesButton() {
-    return b_ver_pacientes;
-}
-
+        public java.awt.Button getVerPacientesButton() {
+            return b_ver_pacientes;
+        }
 }
