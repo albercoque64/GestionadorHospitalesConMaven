@@ -1,7 +1,5 @@
 package main;
 
-import modelo.modelo;
-import vista_Principal.LoginVista;
 import controlador.controlador;
 import enfermera.AdministrarMedicamentos;
 import enfermera.Buscar_Medicamentos_Vista;

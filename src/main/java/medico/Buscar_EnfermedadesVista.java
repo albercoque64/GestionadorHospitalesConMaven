@@ -1,12 +1,10 @@
 package medico;
 
 import enfermedades.Enfermedad;
-import java.awt.Color;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.util.List;
-import java.util.stream.Collectors;
 import javax.swing.DefaultListModel;
 
 public class Buscar_EnfermedadesVista extends javax.swing.JFrame {

@@ -4,11 +4,9 @@
  */
 package medico;
 
-import controlador.controlador;
 import historial.VisitaMedica;
 import java.awt.event.ActionListener;
 import java.util.List;
-import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import pacientes.Paciente;
 
