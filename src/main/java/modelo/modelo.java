@@ -21,7 +21,7 @@ public final class modelo {
     /*
     * Contrasña del Usuario.
     */
-    private String passwordUsuario;
+    private String contraseñaUsuario;
     
     
     public modelo() {
@@ -45,7 +45,7 @@ public final class modelo {
     * @return  Contraseña del usuario.
     */
     public String getpasswordUsuario() {
-        return passwordUsuario;
+        return contraseñaUsuario;
     }
     
     /**
