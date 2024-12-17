@@ -1,6 +1,6 @@
 package main;
 
-import controlador.controlador;
+import controlador.Controlador;
 import enfermera.AdministrarMedicamentos;
 import enfermera.Buscar_Medicamentos_Vista;
 import modelo.modelo;
@@ -51,7 +51,7 @@ public class GestionadorHospitales {
         Ver_PacientesVista medicoPacientes = new Ver_PacientesVista();
         VerHistorialPaciente verHistorialPaciente = new VerHistorialPaciente();
         //CONTROLLER
-        controlador controller = new controlador(model, vista, enfermeraVista, enfermeraAdministrarMedicamentos, enfermeraBuscar, enfermeraAdministrar, medicoVista, medicoPacientes, medicoBuscar, verHistorialPaciente);
+        Controlador controller = new Controlador(model, vista, enfermeraVista, enfermeraAdministrarMedicamentos, enfermeraBuscar, enfermeraAdministrar, medicoVista, medicoPacientes, medicoBuscar, verHistorialPaciente);
 
         vista.setVisible(true);
 

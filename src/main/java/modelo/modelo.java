@@ -44,7 +44,7 @@ public final class modelo {
     * Obtiene la contraseña del usuario.
     * @return  Contraseña del usuario.
     */
-    public String getpasswordUsuario() {
+    public String getContrasenyaUsuario() {
         return contrasenyaUsuario;
     }
     
@@ -52,13 +52,13 @@ public final class modelo {
     * Determina el tipo de usuario basado en el nombre de usuario y la contraseña proporcionados.
     *
     * @param nombreUsuario el nombre de usuario proporcionado
-    * @param passwordUsuario la contraseña proporcionada
+    * @param contrasenyaUsuario la contraseña proporcionada
     * @return el tipo de usuario correspondiente ("medico", "enfermera","desconocido")
     */
-    public String tipoDeUsuario(String nombreUsuario, String passwordUsuario) {     
-        if (nombreUsuario.equals("medico") && passwordUsuario.equals("medico")) {
+    public String tipoDeUsuario(String nombreUsuario, String contrasenyaUsuario) {     
+        if (nombreUsuario.equals("medico") && contrasenyaUsuario.equals("medico")) {
             return "medico";
-        } else if (nombreUsuario.equals("enfermera") && passwordUsuario.equals("enfermera")) {
+        } else if (nombreUsuario.equals("enfermera") && contrasenyaUsuario.equals("enfermera")) {
             return "cliente";
         } else {
             return "desconocido";
